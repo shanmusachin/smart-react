@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+  	"name":"smart-react",
+  	"script":"dist/assets/server-bundle.js",
+    "env_production" : {
+       "NODE_ENV": "production",
+       "ENV_PORT":"2021"
+    }
+  }]
+}
